@@ -53,7 +53,7 @@ plt.title('1x500 List Plot')
 plt.xlabel('Frequency')
 plt.ylabel('Weights')
 
-# 显示图形
+
 plt.show()
 
 
@@ -63,13 +63,13 @@ plt.show()
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 创建一个随机矩阵
+
 with open('/weights/single_train/B2015_001_weights_f.txt', 'r') as f:
     matrix = np.random.rand(1409, 1409)
     i=0
     lines = f.readlines()
     for line in lines:
-        # 处理每行数据
+
 
         a=line.split()
         for j in range(1409):
