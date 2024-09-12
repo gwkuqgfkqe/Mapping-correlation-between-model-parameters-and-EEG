@@ -124,7 +124,7 @@ class SpectralAttentionModule(nn.Module):
 
         attn_weights = attn_weights
         x_fft = x_fft
-        # 注意力加权
+
         # print(attn_weights.dtype, attn_weights.device)
         # print(value.dtype, value.device)
         attn_weights = attn_weights.type(x_fft.dtype)
